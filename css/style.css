@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto Slab', serif;
+}
+img{
+    width: 100%;
+}
+a{
+    background-color: transparent;
+    color: #000;
+    text-decoration: none;
+}
+nav{
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nav-inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav h1{
+    width: 100%;
+}
+.checkbox-item{
+    padding: 5px;
+}
+main{
+    padding: 1em;
+}
+.inspire-box{
+    background-color: #ffffff;
+    margin-bottom: 2em;
+}
+.inspire-box h2{
+    margin-top: 10px;
+}
+.main-tags,.inspire-connect{
+display: flex;
+flex-wrap: wrap;
+margin-top: 1em;
+}
+.main-tags span{
+    font-size: smaller;
+    margin-right: 10px;
+}
+.inspire-connect{
+    border: 1px solid #000;
+}
+.inspire-connect a{
+    flex: 50%;
+    text-align: center;
+    padding: .5em 0;
+}
+.inspire-connect a:hover{
+    background-color: #000;
+    color: #ffffff;
+}
+
+@media only screen and (min-width:768px) {
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav{
+        max-width: 250px;
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    .checkbox-item{
+        width: 100%;
+    }
+    main{
+        width:calc(100% - 250px);
+    }
+    .main-inner{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .inspire-box{
+        padding: 1em;
+        flex: 25%;
+        max-width: 25%;
+        margin-bottom: 1em;
+    }
+}
