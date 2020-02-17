@@ -41,6 +41,7 @@ main{
 }
 .inspire-box h2{
     margin-top: 10px;
+    margin-bottom: 5px;
 }
 .main-tags,.inspire-connect{
 display: flex;
@@ -57,7 +58,7 @@ margin-top: 1em;
 .inspire-connect a{
     flex: 50%;
     text-align: center;
-    padding: .5em 0;
+    padding: .8em 0;
 }
 .inspire-connect a:hover{
     background-color: #000;
